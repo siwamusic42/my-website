@@ -1,0 +1,33 @@
+/* Defaults to make life easier */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f8bf9b;
+}
+
+#video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100vw;
+  height: auto; /* Assuming you meant to set a height value */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 4rem;
+  color: #333;
+}
